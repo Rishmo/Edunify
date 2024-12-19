@@ -1,0 +1,70 @@
+/* General Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    margin: 8px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="email"] {
+    border-color: #4CAF50;
+}
+
+/* ShowSchools component styling */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 4px;
+}
