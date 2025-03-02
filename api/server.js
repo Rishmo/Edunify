@@ -19,8 +19,6 @@ app.use(express.json());
 // Create a MySQL database connection
 const db = mysql.createConnection({
     host: 'localhost',        // The hostname of the database server (local machine)
-    user: 'root',             // The username to connect to the database
-    password: 'Nov@38MySQL24', // The password for the database user
     database: 'schools_db',   // The name of the database to connect to
 });
 
